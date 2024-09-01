@@ -29,7 +29,7 @@ _Download prohibited videos, perform data analysis, download without watermark o
 -   This project uses`X-Bogus`Algorithms and`A_Bogus`The algorithm requests the Web API of Douyin and TikTok.
 -   Due to Douyin's risk control, after deploying this project, please**Obtain the cookie of Douyin website in the browser and replace it in config.yaml.**
 -   Please read the document below before raising an issue. Solutions to most problems will be included in the document.
--   This project is completely free, but please observe the following when using it:[Apache-2.0 license](https://github.com/Evil0ctal/Douyin_TikTok_Download_API?tab=Apache-2.0-1-ov-file#readme)
+-   This project is completely free, but when using it, please comply with:[Apache-2.0 license](https://github.com/Evil0ctal/Douyin_TikTok_Download_API?tab=Apache-2.0-1-ov-file#readme)
 
 ## 🔖TikHub.io API
 
@@ -62,7 +62,7 @@ Part of TikHub's source code will be open sourced on Github, and it will sponsor
 
 ## 🖥Demo site: I am very vulnerable...please do not stress test (·•᷄ࡇ•᷅ )
 
-> 😾The online download function of the demo site has been turned off, and due to cookie reasons, Douyin's parsing and API services cannot guarantee availability on the Demo site.
+> 😾The online download function of the demo site has been turned off, and due to cookie reasons, the availability of Douyin's parsing and API services cannot be guaranteed on the Demo site.
 
 🍔Web APP:<https://douyin.wtf/>
 
@@ -96,7 +96,7 @@ Part of TikHub's source code will be open sourced on Github, and it will sponsor
 
 -   use`PyWebIO`A simple web program created to process the values ​​entered on the web page and then use them`Crawlers`The related class processing interface outputs related data on the web page.
 
-**_Most of the parameters of the above files can be found in the corresponding`config.yaml`Modify in_**
+**_Most of the parameters of the above files can be found in the corresponding`config.yaml`Make changes in_**
 
 ## 💡Project file structure
 
@@ -176,7 +176,7 @@ Part of TikHub's source code will be open sourced on Github, and it will sponsor
     -   Bilibili web version API
         -   [x] Get individual video details
         -   [x] Obtain user-published video work data
-        -   [x] Get all the user's favorites information
+        -   [x] Get all favorites information of the user
         -   [x] Get video data in specified favorites
         -   [x] Get information about a specified user
         -   [x] Get comprehensive popular video information
@@ -273,7 +273,7 @@ Online:<https://api.douyin.wtf/docs>
 -   Crawl video data (TikTok or Douyin hybrid analysis)`https://api.douyin.wtf/api/hybrid/video_data?url=[视频链接/Video URL]&minimal=false`
 -   Download videos/photo albums (TikTok or Douyin hybrid analysis)`https://api.douyin.wtf/api/download?url=[视频链接/Video URL]&prefix=true&with_watermark=false`
 
-**_For more demonstrations, please view the document content..._**
+**_For more demonstrations, please see the documentation..._**
 
 ## ⚠️Preparation work before deployment (please read carefully):
 
@@ -316,7 +316,7 @@ My invitation link:
 
 > Turn on/off automatic operation at startup
 
--   Use the following command to set the service to run automatically at boot or cancel automatic run at boot:
+-   Use the following commands to set the service to run automatically at boot or cancel automatic run at boot:
     -   `sudo systemctl enable Douyin_TikTok_Download_API.service`
     -   `sudo systemctl disable Douyin_TikTok_Download_API.service`
 
